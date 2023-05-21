@@ -1,0 +1,17 @@
+Host github.Viet1412
+   HostName github.com
+   User Viet1412
+   #PreferredAuthentications publickey
+   #AddKeysToAgent yes
+   #UseKeychain yes
+   IdentityFile ~/.ssh/id_rsa
+   #IdentitiesOnly yes
+
+Host github.Viet-Primer
+   HostName github.com:Viet-Primer
+   #User Viet-Primer
+   AddKeysToAgent yes
+   #UseKeychain yes
+   #PreferredAuthentications publickey
+   IdentityFile ~/.ssh/VietSSH2
+   #IdentitiesOnly yes
